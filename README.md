@@ -11,4 +11,8 @@ This app is a practise for Udemy course "REST API with Ruby on Rails: The Comple
 * `Add rspec and factory_bot`
   * https://github.com/rspec/rspec-rails/tree/5-1-maintenance
   * https://github.com/thoughtbot/factory_bot_rails 
+
+* `Add articles object`
+  * $ rails g model article title content:text slug
+  * $ rails db:migrate
   
