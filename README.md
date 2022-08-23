@@ -16,3 +16,6 @@ This app is a practise for Udemy course "REST API with Ruby on Rails: The Comple
   * $ rails g model article title content:text slug
   * $ rails db:migrate
   
+
+* `Notes`
+  * $ rails routes | grep articles  --SAME AS--  rails routes -g articles
