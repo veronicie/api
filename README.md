@@ -18,6 +18,9 @@ This app is a practise for Udemy course "REST API with Ruby on Rails: The Comple
 
 * `Add serializer gem`
   * https://github.com/jsonapi-serializer/jsonapi-serializer 
+
+* `Add jsom-pagination gem`
+  * https://github.com/useo-pl/jsom-pagination 
   
 
 * `Notes`
