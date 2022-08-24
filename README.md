@@ -15,7 +15,11 @@ This app is a practise for Udemy course "REST API with Ruby on Rails: The Comple
 * `Add articles object`
   * $ rails g model article title content:text slug
   * $ rails db:migrate
+
+* `Add serializer gem`
+  * https://github.com/jsonapi-serializer/jsonapi-serializer 
   
 
 * `Notes`
   * $ rails routes | grep articles  --SAME AS--  rails routes -g articles
+  * "pp body" before expectation in the test -> prints the body in better format
