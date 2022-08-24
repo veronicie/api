@@ -21,6 +21,9 @@ This app is a practise for Udemy course "REST API with Ruby on Rails: The Comple
 
 * `Add jsom-pagination gem`
   * https://github.com/useo-pl/jsom-pagination 
+
+* `Add jsonapi_errors_handler gem`
+  * https://github.com/driggl/jsonapi_errors_handler 
   
 
 * `Notes`
