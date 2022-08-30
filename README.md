@@ -24,6 +24,10 @@ This app is a practise for Udemy course "REST API with Ruby on Rails: The Comple
 
 * `Add jsonapi_errors_handler gem`
   * https://github.com/driggl/jsonapi_errors_handler 
+
+* `Add users object`
+  * $ rails g model user login name url avatar_url provider
+  * $ rails db:migrate
   
 
 * `Notes`
