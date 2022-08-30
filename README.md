@@ -28,6 +28,10 @@ This app is a practise for Udemy course "REST API with Ruby on Rails: The Comple
 * `Add users object`
   * $ rails g model user login name url avatar_url provider
   * $ rails db:migrate
+
+* `Token preparation`
+  * $ rails g model access_token token user:references
+  * $ rails db:migrate
   
 
 * `Notes`
