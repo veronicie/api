@@ -30,7 +30,7 @@ describe UserAuthenticator do
         {
           login: 'mango1',
           url: 'http://example.com',
-          avatar_url: 'http://example/avatar',
+          avatar_url: 'http://example.com/avatar',
           name: 'Mango Banana'
         }
       end
@@ -46,6 +46,12 @@ describe UserAuthenticator do
         expect { subject }.to change { User.count }.by(1)
         # pp user_data
         expect(User.last.name).to eq('Mango Banana')
+      end
+
+      it 'should reuse already registered user' do
+        user = create :user, user_data
+        expect{ subject }.not_to change{ User.count }
+        expect(authenticator.user).to eq(user)
       end
     end
   end
